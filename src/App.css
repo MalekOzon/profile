@@ -1,0 +1,85 @@
+.App{
+  background-color: rgba(5, 3, 3, 0.893);
+}
+.image{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 550px;
+}
+.name{
+  margin-top: 25px;
+  display:  flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+}
+
+.name > h1{
+  margin: 5px;
+}
+
+.name > h3{
+color: rgba(221, 174, 174, 0.98);
+margin: 5px;
+}
+
+.name>h5{
+  margin: 5px;
+}
+.box{
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.email{
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+  width: 150px;
+  height: 35px;
+  border-radius: 8%;
+  background-color: aliceblue;
+}
+
+.email > h3{
+  display: flex;
+  margin: 0px;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.Linkedin{
+  margin-left: 20px;
+  margin: 5px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 35px;
+  border-radius: 8%;
+  background-color: rgb(33, 117, 190);
+}
+
+.Linkedin > h3{
+  display: flex;
+  margin: 0px;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.about , .inte{
+  margin: 10px;
+  color: white;
+}
+
+.footer{
+  height: 100px;
+  background-color: rgb(36, 41, 41);
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
